@@ -31,6 +31,12 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+	public String getPublication() {
+		return publication;
+	}
+	public void setPublication(String publication) {
+		this.publication = publication;
+	}
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", title=" + title + ", price=" + price + ", author=" + author + "]";
