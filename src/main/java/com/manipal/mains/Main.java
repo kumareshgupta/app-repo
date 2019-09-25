@@ -14,7 +14,19 @@ public class Main {
 		book.setAuthor("Roza");
 		book.setPrice(399.00);
 		
+		
+		
 		System.out.println("Book Details : " + book);
+		
+		
+		book = new Book();
+		book.setBookId(1002);
+		book.setTitle("India's Biggest Cover up");
+		book.setAuthor("Anuj Dhar");
+		book.setPrice(500.00);
+		
+		System.out.println("Book Details : " + book);
+		
 	}
 
 }
