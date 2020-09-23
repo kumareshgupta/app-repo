@@ -37,6 +37,10 @@ public class Book {
 	public void setPublication(String publication) {
 		this.publication = publication;
 	}
+
+	public void show(){
+		System.out.println('Showing Book Details " + title);
+	}
 	@Override
 	public String toString() {
 		return "Book Details-> Book Id : " + bookId + ", title=" + title + ", price=" + price + ", author=" + author;
