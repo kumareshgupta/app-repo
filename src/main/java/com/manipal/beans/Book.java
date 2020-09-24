@@ -40,7 +40,7 @@ public class Book {
 
 	public void show(){
 		System.out.println(" Book Title " + title);
-		System.out.println(" Book Author " + author);
+		System.out.println(" Book Author " + author + "\n Publisher : " + publication);
 	}
 	@Override
 	public String toString() {
