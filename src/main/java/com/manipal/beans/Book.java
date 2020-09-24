@@ -39,7 +39,8 @@ public class Book {
 	}
 
 	public void show(){
-		System.out.println(" Showing Book Details " + title);
+		System.out.println(" Book Title " + title);
+		System.out.println(" Book Author " + author);
 	}
 	@Override
 	public String toString() {
